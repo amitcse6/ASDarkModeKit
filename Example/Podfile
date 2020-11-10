@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ASDarkModeKit_Example' do
+  pod 'ASDarkModeKit', :path => '../'
+
+  target 'ASDarkModeKit_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+  end
+end
