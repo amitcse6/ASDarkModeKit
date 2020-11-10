@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ASDarkModeKit'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of ASDarkModeKit.'
+  s.summary          = 'ASDarkModeKit for Dynamic Mode Change Reaction'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,19 +18,23 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+ ASDarkModeKit is an Awesome Dynamic Mode Changing Library
                        DESC
 
-  s.homepage         = 'https://github.com/amitpstu1@gmail.com/ASDarkModeKit'
+  s.homepage         = 'https://github.com/amitcse6/ASDarkModeKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'amitpstu1@gmail.com' => 'asraful.alam@mobioapp.com' }
-  s.source           = { :git => 'https://github.com/amitpstu1@gmail.com/ASDarkModeKit.git', :tag => s.version.to_s }
+  s.author           = { 'Amit Mondol' => 'amitpstu1@gmail.com' }
+  s.source           = { :git => 'https://github.com/amitcse6/ASDarkModeKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'ASDarkModeKit/Classes/**/*'
+  s.source_files = 'Source/**/*.swift'
+  s.swift_version = '5.0'
+  s.platforms = {
+      "ios": "8.0"
+  }
   
   # s.resource_bundles = {
   #   'ASDarkModeKit' => ['ASDarkModeKit/Assets/*.png']

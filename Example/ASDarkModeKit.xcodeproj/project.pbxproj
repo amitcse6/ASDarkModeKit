@@ -43,10 +43,10 @@
 		607FACE51AFB9204008FA782 /* ASDarkModeKit_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ASDarkModeKit_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		AA202BDC4461B5339CDB0205 /* ASDarkModeKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ASDarkModeKit.podspec; path = ../ASDarkModeKit.podspec; sourceTree = "<group>"; };
+		AA202BDC4461B5339CDB0205 /* ASDarkModeKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ASDarkModeKit.podspec; path = ../ASDarkModeKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AE03FF9DAF294BC801BB2637 /* Pods_ASDarkModeKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASDarkModeKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E328BA9E26AABC92E89C3526 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		F378F3166783C9662EC1B039 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E328BA9E26AABC92E89C3526 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F378F3166783C9662EC1B039 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +156,6 @@
 				09C23F9FFAA24C522819F960 /* Pods-ASDarkModeKit_Tests.debug.xcconfig */,
 				47A2C3B365FB90F5291CAEFE /* Pods-ASDarkModeKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -214,10 +213,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = J27N355HBH;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = J27N355HBH;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -228,6 +229,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -497,6 +499,7 @@
 			baseConfigurationReference = 50A83F6EDC16B5B6E6CCF7F8 /* Pods-ASDarkModeKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J27N355HBH;
 				INFOPLIST_FILE = ASDarkModeKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -512,6 +515,7 @@
 			baseConfigurationReference = 50FF17F0D465CDC8677B0F53 /* Pods-ASDarkModeKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J27N355HBH;
 				INFOPLIST_FILE = ASDarkModeKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -526,6 +530,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 09C23F9FFAA24C522819F960 /* Pods-ASDarkModeKit_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = J27N355HBH;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -548,6 +553,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 47A2C3B365FB90F5291CAEFE /* Pods-ASDarkModeKit_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = J27N355HBH;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
